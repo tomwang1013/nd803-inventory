@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">库存管理</string>
+
+    <!-- main activity -->
+    <string name="action_insert">新建</string>
+
+    <!-- insert activity -->
+    <string name="action_save">保存</string>
+
+    <!-- detail activity -->
+    <string name="action_increase_count">增加数量</string>
+    <string name="action_decrement_count">减少数量</string>
+    <string name="action_order">订货</string>
+    <string name="action_delete_product">删除</string>
+</resources>
