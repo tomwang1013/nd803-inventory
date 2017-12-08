@@ -1,6 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <!-- name -->
+    <LinearLayout style="@style/productAttrLine">
+
+        <TextView
+            android:text="@string/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edit_view_name"
+            style="@style/editViewStyle" />
+
+    </LinearLayout>
+
+    <!-- count -->
+    <LinearLayout style="@style/productAttrLine">
+
+        <TextView
+            android:text="@string/product_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edit_view_count"
+            style="@style/editViewStyle" />
+
+    </LinearLayout>
+
+    <!-- price -->
+    <LinearLayout style="@style/productAttrLine">
+
+        <TextView
+            android:text="@string/product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edit_view_price"
+            style="@style/editViewStyle" />
+
+    </LinearLayout>
+
+    <!-- image -->
+    <LinearLayout style="@style/productAttrLine">
+
+        <TextView
+            android:text="@string/product_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/pick_image"
+            android:onClick="pickImage"
+            android:text="@string/pick_image"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
 </LinearLayout>

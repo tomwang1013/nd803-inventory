@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These are the options displayed in the gender drop-down Spinner -->
+    <string-array name="array_pick_image_options">
+        <item>@string/take_photo</item>
+        <item>@string/from_gallery</item>
+        <item>@string/cancel</item>
+    </string-array>
+</resources>
