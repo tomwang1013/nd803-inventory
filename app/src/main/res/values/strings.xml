@@ -9,6 +9,11 @@
 
     <!-- main activity -->
     <string name="action_insert">新建</string>
+    <string name="empty_text">暂时没有产品，点击"添加"新建产品</string>
+    <string name="sale_button_text">出售</string>
+    <string name="sale_successful">出售成功，库存减1</string>
+    <string name="sale_failed">出售失败</string>
+    <string name="no_count_hint">当前库存为0，不能出售</string>
 
     <!-- insert activity -->
     <string name="insert_title">新建产品</string>
@@ -17,6 +22,9 @@
     <string name="take_photo">拍照</string>
     <string name="from_gallery">从相册选择</string>
     <string name="cancel">取消</string>
+
+    <string name="insert_product_successful">新建产品成功</string>
+    <string name="insert_product_failed">新建产品失败，请检查下字段值，保证每个字段都不为空</string>
 
     <!-- detail activity -->
     <string name="detail_title">产品详情</string>

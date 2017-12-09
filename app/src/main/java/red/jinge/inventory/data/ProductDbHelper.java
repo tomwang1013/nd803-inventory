@@ -22,8 +22,7 @@ public class ProductDbHelper extends SQLiteOpenHelper {
                     + ProductContract.ProductEntry.COLUMN_NAME  + " TEXT NOT NULL, "
                     + ProductContract.ProductEntry.COLUMN_COUNT + " INTEGER NOT NULL, "
                     + ProductContract.ProductEntry.COLUMN_PRICE + " INTEGER NOT NULL, "
-                    + ProductContract.ProductEntry.COLUMN_TAG   + " INTEGER NOT NULL DEFAULT 0)"
-                    + ProductContract.ProductEntry.COLUMN_IMAGE + " BLOB NOT NULL;";
+                    + ProductContract.ProductEntry.COLUMN_IMAGE + " BLOB NOT NULL);";
 
     // delete table statement
     private static final String SQL_DELETE_ENTRIES =

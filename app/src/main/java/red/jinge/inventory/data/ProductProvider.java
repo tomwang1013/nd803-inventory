@@ -187,7 +187,7 @@ public class ProductProvider extends ContentProvider {
 
         if (values.containsKey(ProductContract.ProductEntry.COLUMN_COUNT)) {
             Integer count = values.getAsInteger(ProductContract.ProductEntry.COLUMN_COUNT);
-            if (count != null || count < 0) {
+            if (count == null || count < 0) {
                 return 0;
             }
         }

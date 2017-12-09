@@ -27,6 +27,11 @@
             android:parentActivityName=".MainActivity"
             android:label="@string/detail_title"
             android:name=".DetailActivity"></activity>
+
+        <provider
+            android:name=".data.ProductProvider"
+            android:authorities="red.jinge.inventory"
+            android:exported="false" />
     </application>
 
 </manifest>

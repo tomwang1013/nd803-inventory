@@ -12,7 +12,6 @@ import android.provider.BaseColumns;
  *  价格：price
  *  图片：image
  *  http://www.theappguruz.com/blog/android-take-photo-camera-gallery-code-sample
- *  http://www.coderzheaven.com/2012/12/23/store-image-android-sqlite-retrieve-it/
  *  https://stackoverflow.com/questions/11790104/how-to-storebitmap-image-and-retrieve-image-from-sqlite-database-in-android
  */
 
