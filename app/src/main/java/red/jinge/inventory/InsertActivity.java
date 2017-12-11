@@ -95,7 +95,7 @@ public class InsertActivity extends AppCompatActivity {
                 Toast.makeText(this, R.string.insert_product_failed,
                         Toast.LENGTH_SHORT).show();
             }
-        } catch (IOException e) {
+        } catch (Exception e) {
             // Otherwise, the insertion was successful and we can display a toast.
             Toast.makeText(this, R.string.insert_product_failed,
                     Toast.LENGTH_SHORT).show();

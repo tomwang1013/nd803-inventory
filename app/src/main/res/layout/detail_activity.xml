@@ -1,6 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <!-- name -->
+    <LinearLayout style="@style/productAttrLine">
+
+        <TextView
+            android:text="@string/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_view_name"
+            tools:text="商品名称"
+            style="@style/editViewStyle" />
+
+    </LinearLayout>
+
+    <!-- count -->
+    <LinearLayout style="@style/productAttrLine">
+
+        <TextView
+            android:text="@string/product_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_view_count"
+            tools:text="34"
+            style="@style/editViewStyle" />
+
+    </LinearLayout>
+
+    <!-- price -->
+    <LinearLayout style="@style/productAttrLine">
+
+        <TextView
+            android:text="@string/product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_view_price"
+            tools:text="34.67"
+            style="@style/editViewStyle" />
+
+    </LinearLayout>
+
+    <!-- image -->
+    <LinearLayout style="@style/productAttrLine">
+
+        <TextView
+            android:text="@string/product_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/image_view_image"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginLeft="8dp"
+            android:contentDescription="@string/product_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
 </LinearLayout>

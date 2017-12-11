@@ -6,9 +6,11 @@
     <string name="product_price">价格：</string>
     <string name="product_image">图片：</string>
 
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
 
     <!-- main activity -->
-    <string name="action_insert">新建</string>
+    <string name="action_insert">添加</string>
     <string name="empty_text">暂时没有产品，点击"添加"新建产品</string>
     <string name="sale_button_text">出售</string>
     <string name="sale_successful">出售成功，库存减1</string>
@@ -21,7 +23,6 @@
     <string name="pick_image">选择图片</string>
     <string name="take_photo">拍照</string>
     <string name="from_gallery">从相册选择</string>
-    <string name="cancel">取消</string>
 
     <string name="insert_product_successful">新建产品成功</string>
     <string name="insert_product_failed">新建产品失败，请检查下字段值，保证每个字段都不为空</string>
@@ -30,6 +31,17 @@
     <string name="detail_title">产品详情</string>
     <string name="action_increase_count">增加数量</string>
     <string name="action_decrement_count">减少数量</string>
-    <string name="action_order">订货</string>
+    <string name="action_order">订购更多</string>
     <string name="action_delete_product">删除</string>
+    <string name="delete_dialog_msg">确定要删除此产品吗？</string>
+    <string name="order_mail_title">订购单：</string>
+
+    <string name="delete_product_successful">删除产品成功</string>
+    <string name="delete_product_failed">删除产品失败</string>
+
+    <string name="increase_count_title">增加库存</string>
+    <string name="increase_count_hint">请输入要增加的数量</string>
+    <string name="decrement_count_title">减少库存</string>
+    <string name="decrement_count_hint">请输入要减少的数量</string>
+    <string name="modified_count_failed">修改后的数量不能小于0</string>
 </resources>

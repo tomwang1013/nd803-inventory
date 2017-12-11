@@ -74,7 +74,7 @@ public class ProductCursorAdapter extends CursorAdapter {
         });
     }
 
-    private String priceFormat(int priceFen) {
+    static public String priceFormat(int priceFen) {
         DecimalFormat df = new DecimalFormat("#.00");
         return df.format(priceFen / 100.0) + " 元";
     }
